@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        dazantaBlue: '#00ffdd',
         black: '#1E1E1E',
         white: '#F7F7F7',
         border: 'hsl(var(--border))',

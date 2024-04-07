@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
-    <main className="mt-[60px] flex flex-col md:flex-row gap-x-3 md:p-10">
+    <main className="mt-[60px] flex flex-col md:flex-row md:items-center gap-x-3 md:p-10">
       <div className="md:w-1/2 flex flex-col gap-5 text-center md:text-start p-5 md:p-0">
         <h1 id="main-header" className="text-5xl sm:text-6xl md:text-[72px]">
           Vista o seu time com estilo
@@ -19,7 +19,7 @@ export default function Home() {
           variant="secondary"
         >
           Ver Destaques
-          <MoveRight width={16} />
+          <MoveRight width={16} className="arrow-icon" />
         </Button>
       </div>
       <div className="md:w-1/2">
