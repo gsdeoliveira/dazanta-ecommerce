@@ -27,28 +27,100 @@ const SideMenu = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1" className="pl-5">
                   <AccordionTrigger>Brasileirão</AccordionTrigger>
-                  <AccordionContent className="pl-5">Flamengo</AccordionContent>
-                  <AccordionContent className="pl-5">Bahia</AccordionContent>
-                  <AccordionContent className="pl-5">Botafogo</AccordionContent>
-                  <AccordionContent className="pl-5">Ceará</AccordionContent>
-                  <AccordionContent className="pl-5">
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/flamengo.webp"
+                      width={16}
+                      height={16}
+                      alt="Flamengo"
+                    />
+                    Flamengo
+                  </AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/bahia.png"
+                      width={16}
+                      height={16}
+                      alt="Bahia"
+                    />
+                    Bahia
+                  </AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/botafogo.webp"
+                      width={16}
+                      height={16}
+                      alt="Botafogo"
+                    />
+                    Botafogo
+                  </AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/Ceara.webp"
+                      width={16}
+                      height={16}
+                      alt="Ceará"
+                    />
+                    Ceará
+                  </AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/fortaleza.webp"
+                      width={16}
+                      height={16}
+                      alt="Fortaleza"
+                    />
                     Fortaleza
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2" className="pl-5">
                   <AccordionTrigger>Seleções</AccordionTrigger>
-                  <AccordionContent>Brasil</AccordionContent>
-                  <AccordionContent>Argentina</AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/brasil.png"
+                      width={16}
+                      height={16}
+                      alt="Brasil"
+                    />
+                    Brasil
+                  </AccordionContent>
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/argentina.png"
+                      width={16}
+                      height={16}
+                      alt="Argentina"
+                    />
+                    Argentina
+                  </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className="pl-5">
                   <AccordionTrigger>La Liga</AccordionTrigger>
-                  <AccordionContent className="pl-5">
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/barcelona.png"
+                      width={16}
+                      height={16}
+                      alt="Barcelona"
+                    />
                     Barcelona
                   </AccordionContent>
-                  <AccordionContent className="pl-5">
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/real-madrid.webp"
+                      width={16}
+                      height={16}
+                      alt="Real Madrid"
+                    />
                     Real Madrid
                   </AccordionContent>
-                  <AccordionContent className="pl-5">
+                  <AccordionContent className="pl-5 flex items-center gap-2">
+                    <Image
+                      src="/atletico-de-madrid.png"
+                      width={16}
+                      height={16}
+                      alt="Atlético de Madrid"
+                    />
                     Atlético de Madrid
                   </AccordionContent>
                 </AccordionItem>
